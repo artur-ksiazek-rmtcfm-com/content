@@ -2466,6 +2466,30 @@
     rc9 "^1.2.0"
     std-env "^2.2.1"
 
+"@nuxt/content-theme-docs@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@nuxt/content-theme-docs/-/content-theme-docs-0.9.0.tgz#00b18e6ab81c4ceefd44063ddf9bad6a7aa01d7a"
+  integrity sha512-kcB/mtiNqaov3KZt2viaQNG8jAep2o9HFTKdDMcOzR4iLuIw51MpkTqSvYFXO4exv5V1WUWaNXeOlxzWrNPStw==
+  dependencies:
+    "@docsearch/css" "^1.0.0-alpha.28"
+    "@docsearch/js" "^1.0.0-alpha.28"
+    "@nuxt/content" "^1.12.0"
+    "@nuxt/types" "^2.14.7"
+    "@nuxtjs/color-mode" "^2.0.0"
+    "@nuxtjs/google-fonts" "1.2.0"
+    "@nuxtjs/pwa" "^3.2.2"
+    "@nuxtjs/tailwindcss" "^3.2.0"
+    "@tailwindcss/typography" "0.2.0"
+    clipboard "^2.0.6"
+    defu "^3.2.2"
+    lodash.groupby "^4.6.0"
+    marked "^1.2.4"
+    nuxt-i18n "^6.15.4"
+    prism-themes "^1.5.0"
+    tailwind-css-variables "^2.0.3"
+    theme-colors "^0.0.5"
+    vue-scrollactive "^0.9.3"
+
 "@nuxt/core@2.14.12":
   version "2.14.12"
   resolved "https://registry.yarnpkg.com/@nuxt/core/-/core-2.14.12.tgz#8f35142bcff0b1bacde2516d5e04d69e34047a95"
@@ -2582,7 +2606,7 @@
     rc9 "^1.2.0"
     std-env "^2.2.1"
 
-"@nuxt/types@^2.14.12":
+"@nuxt/types@^2.14.12", "@nuxt/types@^2.14.7":
   version "2.14.12"
   resolved "https://registry.yarnpkg.com/@nuxt/types/-/types-2.14.12.tgz#4e5aa642b67081890b3b7aab03db62855ef71a25"
   integrity sha512-x58uEVygHual/kHDTrLAwXjKNYn+5udR4HJOmHd2gXgYonZu8E2UpsShIkyMRZ0nRoEAZ72i4OfcHKqGsVSI6w==
@@ -2723,7 +2747,7 @@
     webpack-node-externals "^2.5.2"
     webpackbar "^4.0.0"
 
-"@nuxtjs/color-mode@^2.0.3":
+"@nuxtjs/color-mode@^2.0.0", "@nuxtjs/color-mode@^2.0.3":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@nuxtjs/color-mode/-/color-mode-2.0.3.tgz#6ba5ab0a6364c966b48386867f2660bf0dcd7b5d"
   integrity sha512-yfTkUbXcq42YW7qCv66kqAttnjr+sLpxY+HIJq7nlLadDQeEyjl+QMR8AHKS2KQMVfMwd7rbJyE+jU2PKjwDcQ==
@@ -2773,7 +2797,7 @@
     request "^2.88.2"
     request-promise-native "^1.0.8"
 
-"@nuxtjs/pwa@^3.3.5":
+"@nuxtjs/pwa@^3.2.2", "@nuxtjs/pwa@^3.3.5":
   version "3.3.5"
   resolved "https://registry.yarnpkg.com/@nuxtjs/pwa/-/pwa-3.3.5.tgz#db7c905536ebe8a464a347b6ae3215810642c044"
   integrity sha512-8tTmW8DBspWxlJwTimOHTkwfkwPpL9wIcGmy75Gcmin+c9YtX2Ehxmhgt/TLFOC9XsLAqojqynw3/Agr/9OE1w==
@@ -2788,7 +2812,7 @@
     serve-static "^1.14.1"
     workbox-cdn "^5.1.4"
 
-"@nuxtjs/tailwindcss@^3.4.2":
+"@nuxtjs/tailwindcss@^3.2.0", "@nuxtjs/tailwindcss@^3.4.2":
   version "3.4.2"
   resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-3.4.2.tgz#2376877b7e3fff35c044e99828d5e7cacfec5621"
   integrity sha512-Hv1b/4zYaffNc0JHss3jqKLZoPRQfG7upxGguP749Zx2VgMyFExeT3NMAxntLHctKvv/ohN+5kFGiewZGI5n2A==
@@ -2950,6 +2974,16 @@
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@tailwindcss/typography/-/typography-0.2.0.tgz#b597c83502e3c3c6641a8aaabda223cd494ab349"
   integrity sha512-aPgMH+CjQiScLZculoDNOQUrrK2ktkbl3D6uCLYp1jgYRlNDrMONu9nMu8LfwAeetYNpVNeIGx7WzHSu0kvECg==
+
+"@tailwindcss/typography@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@tailwindcss/typography/-/typography-0.4.0.tgz#b80974ad6af93df7b06e1981cb4d79698b6ad5c7"
+  integrity sha512-3BfOYT5MYNEq81Ism3L2qu/HRP2Q5vWqZtZRQqQrthHuaTK9qpuPfbMT5WATjAM5J1OePKBaI5pLoX4S1JGNMQ==
+  dependencies:
+    lodash.castarray "^4.4.0"
+    lodash.isplainobject "^4.0.6"
+    lodash.merge "^4.6.2"
+    lodash.uniq "^4.5.0"
 
 "@tootallnate/once@1":
   version "1.1.2"
@@ -10503,6 +10537,11 @@ lodash._reinterpolate@^3.0.0:
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
   integrity sha1-DM8tiRZq8Ds2Y8eWU4t1rG4RTZ0=
 
+lodash.castarray@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/lodash.castarray/-/lodash.castarray-4.4.0.tgz#c02513515e309daddd4c24c60cfddcf5976d9115"
+  integrity sha1-wCUTUV4wna3dTCTGDP3c9ZdtkRU=
+
 lodash.clonedeep@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
@@ -10523,6 +10562,11 @@ lodash.ismatch@^4.4.0:
   resolved "https://registry.yarnpkg.com/lodash.ismatch/-/lodash.ismatch-4.4.0.tgz#756cb5150ca3ba6f11085a78849645f188f85f37"
   integrity sha1-dWy1FQyjum8RCFp4hJZF8Yj4Xzc=
 
+lodash.isplainobject@^4.0.6:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz#7c526a52d89b45c45cc690b88163be0497f550cb"
+  integrity sha1-fFJqUtibRcRcxpC4gWO+BJf1UMs=
+
 lodash.kebabcase@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.kebabcase/-/lodash.kebabcase-4.1.1.tgz#8489b1cb0d29ff88195cceca448ff6d6cc295c36"
@@ -10532,6 +10576,11 @@ lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
+
+lodash.merge@^4.6.2:
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
+  integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
 
 lodash.set@^4.3.2:
   version "4.3.2"
@@ -10765,6 +10814,11 @@ markdown-table@^2.0.0:
   integrity sha512-Ezda85ToJUBhM6WGaG6veasyym+Tbs3cMAw/ZhOPqXiYsr0jgocBV3j3nx+4lk47plLlIqjwuTm/ywVI+zjJ/A==
   dependencies:
     repeat-string "^1.0.0"
+
+marked@^1.2.4:
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-1.2.9.tgz#53786f8b05d4c01a2a5a76b7d1ec9943d29d72dc"
+  integrity sha512-H8lIX2SvyitGX+TRdtS06m1jHMijKN/XjfH6Ooii9fvxMlh8QdqBfBDkGUpMWH2kQNrtixjzYUa3SH8ROTgRRw==
 
 marked@^2.0.0:
   version "2.0.0"
@@ -11762,7 +11816,7 @@ nuxt-ackee@^2.0.0:
     ackee-tracker "^4.0.0"
     defu "^3.1.0"
 
-nuxt-i18n@^6.20.0:
+nuxt-i18n@^6.15.4, nuxt-i18n@^6.20.0:
   version "6.20.0"
   resolved "https://registry.yarnpkg.com/nuxt-i18n/-/nuxt-i18n-6.20.0.tgz#09d7839c56b2f4eec6b37e55ee7be0b0d18563d4"
   integrity sha512-R6NrAskfaaUvs7xAvApZ+Piakqx3x50EAF5wOsxQZLc2Yx2/pN0C3sktxlFhrf0lr9lD1F9WhgUwz3GJV1ul3A==
